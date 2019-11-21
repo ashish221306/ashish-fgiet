@@ -1,4 +1,13 @@
-<style>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Untitled Document</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
         *{box-sizing: border-box}
         .navbar a,.drop1 a{padding: 10px 20px;margin: 20px 10px;background:#0a0629;color: #f1f1f1;display: inline-block;text-decoration: none;font-size: 16px;font-weight: bold}
         .navbar a:first-child{padding-left: 0}
@@ -25,3 +34,118 @@
             .right{background: #000;color: #f1f1f1}
         }
     </style>
+    
+    
+    
+</head>
+
+
+
+<body>
+<button style="padding: 10px ;background:#0a0629;color: #f1f1f1; ">menu</button>
+<div class="wrap1">
+<ul class="navbar">
+    <a id="drop1" href="">dropdown1</a>
+    
+    <a href="">home</a>
+    <a href="">home</a>
+    <a id="drop2" href="">dropdown2</a>
+    <a href="">home</a>
+    
+    </ul>
+    <ul class="drop1">
+        <li><a href="">about</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">about</a></li>
+        <li><a href="">about</a></li>
+    </ul>
+    <div class="drop2">
+    <div class="drop21">
+      <img src="asd.jpg" width="100%">
+      <div class="descr">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quis, nesciunt ipsum eum incidunt eaque accusantium laborum voluptates impedit praesentium quas cum, perspiciatis provident in, deserunt illo consectetur, vitae! Delectus.</p>
+      </div>  
+    </div>
+     <div class="drop21">
+      <img src="asd.jpg" width="100%">
+      <div class="descr">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quis, nesciunt ipsum eum incidunt eaque accusantium laborum voluptates impedit praesentium quas cum, perspiciatis provident in, deserunt illo consectetur, vitae! Delectus.</p>
+      </div>  
+    </div>
+     <div class="drop21">
+      <img src="asd.jpg" width="100%">
+      <div class="descr">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quis, nesciunt ipsum eum incidunt eaque accusantium laborum voluptates impedit praesentium quas cum, perspiciatis provident in, deserunt illo consectetur, vitae! Delectus.</p>
+      </div>  
+    </div>
+    <div class="drop21">
+      <img src="asd.jpg" width="100%">
+      <div class="descr">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quis, nesciunt ipsum eum incidunt eaque accusantium laborum voluptates impedit praesentium quas cum, perspiciatis provident in, deserunt illo consectetur, vitae! Delectus.</p>
+      </div>  
+    </div>
+    <div class="drop21">
+      <img src="asd.jpg" width="100%">
+      <div class="descr">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quis, nesciunt ipsum eum incidunt eaque accusantium laborum voluptates impedit praesentium quas cum, perspiciatis provident in, deserunt illo consectetur, vitae! Delectus.</p>
+      </div>  
+    </div>
+    <div class="drop21">
+      <img src="asd.jpg" width="100%">
+      <div class="descr">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quis, nesciunt ipsum eum incidunt eaque accusantium laborum voluptates impedit praesentium quas cum, perspiciatis provident in, deserunt illo consectetur, vitae! Delectus.</p>
+      </div>  
+    </div>
+    <div class="drop21">
+      <img src="asd.jpg" width="100%">
+      <div class="descr">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quis, nesciunt ipsum eum incidunt eaque accusantium laborum voluptates impedit praesentium quas cum, perspiciatis provident in, deserunt illo consectetur, vitae! Delectus.</p>
+      </div>  
+    </div>
+    
+    <!--side div-->
+    <div class="sidediv">
+        <div class="left">
+        
+    </div>
+    <div class="right">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae amet ducimus vitae nam doloribus porro distinctio, laudantium, esse natus, placeat error saepe quos sapiente alias maxime similique, quisquam repellendus hic.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolore similique nesciunt vero officiis maxime totam repellat laborum quis vel. Labore voluptas illo accusamus. Veniam eum ducimus, cumque dolor vero.</p>
+    </div>
+    <div class="clear"></div>
+    </div>
+    
+    
+    <!--close side dive-->
+    
+    
+    
+    
+    
+    </div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script>
+    $("#drop1").click(function(e){
+        $(".drop1").slideToggle("slow");
+        e.preventDefault();
+    })
+    $("#drop2").click(function(e){
+        $(".drop2").slideToggle("slow");
+        e.preventDefault();
+    })
+    $("button").click(function(){
+        $(".wrap1").slideToggle("slow");
+        
+    })
+    $(".right").mouseover(function(){
+        $(".right").css("background:#000");
+        
+    })
+    
+    
+    </script>
+
+</body>
+
+</html>
