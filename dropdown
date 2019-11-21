@@ -1,0 +1,27 @@
+<style>
+        *{box-sizing: border-box}
+        .navbar a,.drop1 a{padding: 10px 20px;margin: 20px 10px;background:#0a0629;color: #f1f1f1;display: inline-block;text-decoration: none;font-size: 16px;font-weight: bold}
+        .navbar a:first-child{padding-left: 0}
+        .navbar a:hover{background:#f1f1f1;color: #000;border-radius: 10px }
+        .navbar{background: #0a0629;height: 100px;box-sizing: border-box;position: sticky;top: 0;border-bottom: 2px solid #000}
+        .drop1{display: none;}
+        .navbar a:hover .drop1{display: block;position: }
+        .drop1{margin: 0;list-style: none;position:relative;background: #0a0629;}
+        .drop1{margin: 0}
+        .drop2{display: none}
+        .drop21{background:#0a0629;padding: 10px;box-shadow: 50px 5px 10px #ddd;}
+        .drop21{margin-bottom: 5px}
+        a:hover{cursor: pointer}
+        .descr{color: #f1f1f1;text-align: justify-all}
+        .clear{clear: both;}
+        .left{float: left;width: 50%;height: 500px;background: rgba(4, 44, 43, 0.99);}
+        .right{float:right;width: 50%;height: 500px;transition: all 1s ease;transform: background:transparent;padding: 10px}
+        .right:hover{transition: all 0.5s cubic-bezier(1, .03, 1, 1);background:#000;color: #f1f1f1;opacity: 1;font-size: 20px}
+        
+        
+        
+        @media screen and (max-width:360px){
+            .navbar a,.drop1 a{padding:10px;margin:5px}
+            .right{background: #000;color: #f1f1f1}
+        }
+    </style>
